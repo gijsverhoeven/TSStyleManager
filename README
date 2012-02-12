@@ -1,4 +1,12 @@
+/**
+  *	TOUCHWONDERS BV
+  *	TSStyleManager README file
+  *	http://www.touchwonders.com
+  */
+
 The TSStyleManager is a tool to manage label styles in your iOS projects. It allows you to define fonts, colors and shadows and group those items into a style. You can then export a bunch of code which simplifies the creation of UILabel objects with the styles you defined.
 For further information about the application see the included help files (https://github.com/Touchwonders/TSStyleManager/tree/master/FontSets/Resources/Help)
+
+Any questions may be directed towards Daan van Hasselt. He can be contacted at daan@touchwonders.com.
 
 Note: The project used to be called 'FontSets', so that's where you'll find all the code and resources. That's also where the prefix FS found it's origin.
