@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>TSStyleManager Help</title>
+<link rel="stylesheet" href="style.css" type="text/css" media=screen>
+</head>
+<body>
+<h2>TSStyleManager Help - Using the exported code</h2>
+<hr/>
+This section explains how to use the code exported by the TSStyleManager.
+<br><br>
+You can export code by clicking on the 'Export category' button in the bottom right corner or by selecting the corresponding menuitem in the 'File' menu. When exporing code, a number of categories and classes is generated. In particular:
+<ul>
+<li>- A category on UIColor, giving convenient acces to the colors you defined. <br>Example usage: <i>[UIColor myColor];</i></li>
+<li>- A category on UIFont, giving convenient acces to the fonts you defined. <br>Example usage: <i>[UIFont myFont];</i></li>
+<li>- A class named TSShadow, acting as a container for the shadows you defined. <br>Example usage: <i>[TSShadow myShadow];</i></li>
+<li>- A class named TSStyle, acting as a container for the styles you defined. <br>Example usage: <i>[TSStyle myStyle];</i></li>
+<li>- A category on UILabel, allowing you to initialize a label with the styles you defined. <br>Example usage: <i>[[UILabel alloc] initWithFrame:frame andStyle:[TSStyle myStyle]];</i></li>
+</ul>
+It is recommended to use only the UILabel category to keep your code as clean as possible, though it is also possible to use the other generated convenience methods.
+</body>
+</html>

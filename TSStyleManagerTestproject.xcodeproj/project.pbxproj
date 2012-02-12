@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		310F4D9014E6CD6E008E24C7 /* Calibri Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 310F4D8E14E6CD6E008E24C7 /* Calibri Italic.ttf */; };
+		310F4D9314E6CDEF008E24C7 /* Zapfino.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 310F4D9214E6CDEE008E24C7 /* Zapfino.ttf */; };
+		31A5818514E42743009F2FB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A5818414E42743009F2FB3 /* UIKit.framework */; };
+		31A5818714E42743009F2FB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A5818614E42743009F2FB3 /* Foundation.framework */; };
+		31A5818914E42743009F2FB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A5818814E42743009F2FB3 /* CoreGraphics.framework */; };
+		31A5818F14E42743009F2FB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31A5818D14E42743009F2FB3 /* InfoPlist.strings */; };
+		31A5819114E42743009F2FB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A5819014E42743009F2FB3 /* main.m */; };
+		31A5819514E42743009F2FB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A5819414E42743009F2FB3 /* AppDelegate.m */; };
+		31A5819814E42743009F2FB3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A5819614E42743009F2FB3 /* MainStoryboard.storyboard */; };
+		31A5819B14E42743009F2FB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A5819A14E42743009F2FB3 /* ViewController.m */; };
+		31A581A214E427F9009F2FB3 /* MyriadPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31A581A114E427F9009F2FB3 /* MyriadPro-Regular.otf */; };
+		31A581A514E42A68009F2FB3 /* GeneratedExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A581A414E42A68009F2FB3 /* GeneratedExtensions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		310F4D8E14E6CD6E008E24C7 /* Calibri Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Italic.ttf"; sourceTree = "<group>"; };
+		310F4D9214E6CDEE008E24C7 /* Zapfino.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zapfino.ttf; sourceTree = "<group>"; };
+		31A5818014E42743009F2FB3 /* TSStyleManagerTestproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSStyleManagerTestproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A5818414E42743009F2FB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31A5818614E42743009F2FB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31A5818814E42743009F2FB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		31A5818C14E42743009F2FB3 /* TSStyleManagerTestproject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TSStyleManagerTestproject-Info.plist"; sourceTree = "<group>"; };
+		31A5818E14E42743009F2FB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31A5819014E42743009F2FB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31A5819214E42743009F2FB3 /* TSStyleManagerTestproject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSStyleManagerTestproject-Prefix.pch"; sourceTree = "<group>"; };
+		31A5819314E42743009F2FB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31A5819414E42743009F2FB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31A5819714E42743009F2FB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		31A5819914E42743009F2FB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31A5819A14E42743009F2FB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31A581A114E427F9009F2FB3 /* MyriadPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Regular.otf"; sourceTree = "<group>"; };
+		31A581A314E42A68009F2FB3 /* GeneratedExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedExtensions.h; sourceTree = "<group>"; };
+		31A581A414E42A68009F2FB3 /* GeneratedExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedExtensions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31A5817D14E42743009F2FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A5818514E42743009F2FB3 /* UIKit.framework in Frameworks */,
+				31A5818714E42743009F2FB3 /* Foundation.framework in Frameworks */,
+				31A5818914E42743009F2FB3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31A5817514E42743009F2FB3 = {
+			isa = PBXGroup;
+			children = (
+				31A5818A14E42743009F2FB3 /* TSStyleManagerTestproject */,
+				31A5818314E42743009F2FB3 /* Frameworks */,
+				31A5818114E42743009F2FB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31A5818114E42743009F2FB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31A5818014E42743009F2FB3 /* TSStyleManagerTestproject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31A5818314E42743009F2FB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31A5818414E42743009F2FB3 /* UIKit.framework */,
+				31A5818614E42743009F2FB3 /* Foundation.framework */,
+				31A5818814E42743009F2FB3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31A5818A14E42743009F2FB3 /* TSStyleManagerTestproject */ = {
+			isa = PBXGroup;
+			children = (
+				31A581A114E427F9009F2FB3 /* MyriadPro-Regular.otf */,
+				310F4D9214E6CDEE008E24C7 /* Zapfino.ttf */,
+				310F4D8E14E6CD6E008E24C7 /* Calibri Italic.ttf */,
+				31A5819314E42743009F2FB3 /* AppDelegate.h */,
+				31A5819414E42743009F2FB3 /* AppDelegate.m */,
+				31A5819614E42743009F2FB3 /* MainStoryboard.storyboard */,
+				31A5819914E42743009F2FB3 /* ViewController.h */,
+				31A5819A14E42743009F2FB3 /* ViewController.m */,
+				31A581A314E42A68009F2FB3 /* GeneratedExtensions.h */,
+				31A581A414E42A68009F2FB3 /* GeneratedExtensions.m */,
+				31A5818B14E42743009F2FB3 /* Supporting Files */,
+			);
+			path = TSStyleManagerTestproject;
+			sourceTree = "<group>";
+		};
+		31A5818B14E42743009F2FB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31A5818C14E42743009F2FB3 /* TSStyleManagerTestproject-Info.plist */,
+				31A5818D14E42743009F2FB3 /* InfoPlist.strings */,
+				31A5819014E42743009F2FB3 /* main.m */,
+				31A5819214E42743009F2FB3 /* TSStyleManagerTestproject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31A5817F14E42743009F2FB3 /* TSStyleManagerTestproject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31A5819E14E42743009F2FB3 /* Build configuration list for PBXNativeTarget "TSStyleManagerTestproject" */;
+			buildPhases = (
+				31A5817C14E42743009F2FB3 /* Sources */,
+				31A5817D14E42743009F2FB3 /* Frameworks */,
+				31A5817E14E42743009F2FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSStyleManagerTestproject;
+			productName = TSStyleManagerTestproject;
+			productReference = 31A5818014E42743009F2FB3 /* TSStyleManagerTestproject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31A5817714E42743009F2FB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 31A5817A14E42743009F2FB3 /* Build configuration list for PBXProject "TSStyleManagerTestproject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31A5817514E42743009F2FB3;
+			productRefGroup = 31A5818114E42743009F2FB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31A5817F14E42743009F2FB3 /* TSStyleManagerTestproject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31A5817E14E42743009F2FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A5818F14E42743009F2FB3 /* InfoPlist.strings in Resources */,
+				31A5819814E42743009F2FB3 /* MainStoryboard.storyboard in Resources */,
+				31A581A214E427F9009F2FB3 /* MyriadPro-Regular.otf in Resources */,
+				310F4D9014E6CD6E008E24C7 /* Calibri Italic.ttf in Resources */,
+				310F4D9314E6CDEF008E24C7 /* Zapfino.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31A5817C14E42743009F2FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A5819114E42743009F2FB3 /* main.m in Sources */,
+				31A5819514E42743009F2FB3 /* AppDelegate.m in Sources */,
+				31A5819B14E42743009F2FB3 /* ViewController.m in Sources */,
+				31A581A514E42A68009F2FB3 /* GeneratedExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31A5818D14E42743009F2FB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31A5818E14E42743009F2FB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31A5819614E42743009F2FB3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31A5819714E42743009F2FB3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31A5819C14E42743009F2FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		31A5819D14E42743009F2FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31A5819F14E42743009F2FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSStyleManagerTestproject/TSStyleManagerTestproject-Prefix.pch";
+				INFOPLIST_FILE = "TSStyleManagerTestproject/TSStyleManagerTestproject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31A581A014E42743009F2FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSStyleManagerTestproject/TSStyleManagerTestproject-Prefix.pch";
+				INFOPLIST_FILE = "TSStyleManagerTestproject/TSStyleManagerTestproject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31A5817A14E42743009F2FB3 /* Build configuration list for PBXProject "TSStyleManagerTestproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31A5819C14E42743009F2FB3 /* Debug */,
+				31A5819D14E42743009F2FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31A5819E14E42743009F2FB3 /* Build configuration list for PBXNativeTarget "TSStyleManagerTestproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31A5819F14E42743009F2FB3 /* Debug */,
+				31A581A014E42743009F2FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31A5817714E42743009F2FB3 /* Project object */;
+}

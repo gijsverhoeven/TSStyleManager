@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		310F4D7214E5A482008E24C7 /* templateImplementation.txt in Resources */ = {isa = PBXBuildFile; fileRef = 31A581C814E434AE009F2FB3 /* templateImplementation.txt */; };
+		310F4D7314E5A484008E24C7 /* templateInterface.txt in Resources */ = {isa = PBXBuildFile; fileRef = 31A581C914E434AE009F2FB3 /* templateInterface.txt */; };
+		310F4D8C14E6B328008E24C7 /* FSArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 310F4D8B14E6B328008E24C7 /* FSArrayController.m */; };
+		31712B6614CCC8F2005F7EAF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31712B6514CCC8F2005F7EAF /* Cocoa.framework */; };
+		31712B7014CCC8F2005F7EAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31712B6E14CCC8F2005F7EAF /* InfoPlist.strings */; };
+		31712B7214CCC8F2005F7EAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31712B7114CCC8F2005F7EAF /* main.m */; };
+		31712B7614CCC8F2005F7EAF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 31712B7414CCC8F2005F7EAF /* Credits.rtf */; };
+		31712B7C14CCC8F2005F7EAF /* FSDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31712B7A14CCC8F2005F7EAF /* FSDocument.xib */; };
+		31712B7F14CCC8F2005F7EAF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31712B7D14CCC8F2005F7EAF /* MainMenu.xib */; };
+		3171CEA414E7E5D2009CA037 /* Help in Resources */ = {isa = PBXBuildFile; fileRef = 3171CEA314E7E5D2009CA037 /* Help */; };
+		31A581BA14E43133009F2FB3 /* FSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A581B514E43133009F2FB3 /* FSColor.m */; };
+		31A581BB14E43133009F2FB3 /* FSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A581B714E43133009F2FB3 /* FSFont.m */; };
+		31A581BC14E43133009F2FB3 /* FSShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A581B914E43133009F2FB3 /* FSShadow.m */; };
+		31A581C114E43139009F2FB3 /* FSDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A581BE14E43139009F2FB3 /* FSDocument.m */; };
+		31A581C214E43139009F2FB3 /* FSDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A581C014E43139009F2FB3 /* FSDocumentController.m */; };
+		31A8294714E52B9200C9EF8C /* FSStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A8294614E52B9200C9EF8C /* FSStyle.m */; };
+		31A8294914E52CAA00C9EF8C /* templateImplementation.txt in Sources */ = {isa = PBXBuildFile; fileRef = 31A581C814E434AE009F2FB3 /* templateImplementation.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		310F4D8A14E6B328008E24C7 /* FSArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSArrayController.h; path = Code/Helpers/FSArrayController.h; sourceTree = "<group>"; };
+		310F4D8B14E6B328008E24C7 /* FSArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSArrayController.m; path = Code/Helpers/FSArrayController.m; sourceTree = "<group>"; };
+		31712B6114CCC8F2005F7EAF /* TSStyleManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSStyleManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31712B6514CCC8F2005F7EAF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		31712B6814CCC8F2005F7EAF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		31712B6914CCC8F2005F7EAF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		31712B6A14CCC8F2005F7EAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31712B6D14CCC8F2005F7EAF /* FontSets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontSets-Info.plist"; sourceTree = "<group>"; };
+		31712B6F14CCC8F2005F7EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31712B7114CCC8F2005F7EAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31712B7314CCC8F2005F7EAF /* FontSets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontSets-Prefix.pch"; sourceTree = "<group>"; };
+		31712B7514CCC8F2005F7EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		31712B7B14CCC8F2005F7EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FSDocument.xib; sourceTree = "<group>"; };
+		31712B7E14CCC8F2005F7EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3171CEA314E7E5D2009CA037 /* Help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Help; path = Resources/Help; sourceTree = "<group>"; };
+		31A581B414E43133009F2FB3 /* FSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSColor.h; path = Code/Datamodel/FSColor.h; sourceTree = "<group>"; };
+		31A581B514E43133009F2FB3 /* FSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSColor.m; path = Code/Datamodel/FSColor.m; sourceTree = "<group>"; };
+		31A581B614E43133009F2FB3 /* FSFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSFont.h; path = Code/Datamodel/FSFont.h; sourceTree = "<group>"; };
+		31A581B714E43133009F2FB3 /* FSFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSFont.m; path = Code/Datamodel/FSFont.m; sourceTree = "<group>"; };
+		31A581B814E43133009F2FB3 /* FSShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSShadow.h; path = Code/Datamodel/FSShadow.h; sourceTree = "<group>"; };
+		31A581B914E43133009F2FB3 /* FSShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSShadow.m; path = Code/Datamodel/FSShadow.m; sourceTree = "<group>"; };
+		31A581BD14E43139009F2FB3 /* FSDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSDocument.h; path = Code/Document/FSDocument.h; sourceTree = "<group>"; };
+		31A581BE14E43139009F2FB3 /* FSDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSDocument.m; path = Code/Document/FSDocument.m; sourceTree = "<group>"; };
+		31A581BF14E43139009F2FB3 /* FSDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSDocumentController.h; path = Code/Document/FSDocumentController.h; sourceTree = "<group>"; };
+		31A581C014E43139009F2FB3 /* FSDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSDocumentController.m; path = Code/Document/FSDocumentController.m; sourceTree = "<group>"; };
+		31A581C814E434AE009F2FB3 /* templateImplementation.txt */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; name = templateImplementation.txt; path = Resources/templateImplementation.txt; sourceTree = "<group>"; };
+		31A581C914E434AE009F2FB3 /* templateInterface.txt */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; name = templateInterface.txt; path = Resources/templateInterface.txt; sourceTree = "<group>"; };
+		31A8294514E52B9200C9EF8C /* FSStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSStyle.h; path = Code/Datamodel/FSStyle.h; sourceTree = "<group>"; };
+		31A8294614E52B9200C9EF8C /* FSStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSStyle.m; path = Code/Datamodel/FSStyle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31712B5E14CCC8F2005F7EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31712B6614CCC8F2005F7EAF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		310F4D8814E6B30C008E24C7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				310F4D8A14E6B328008E24C7 /* FSArrayController.h */,
+				310F4D8B14E6B328008E24C7 /* FSArrayController.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		31712B5614CCC8F2005F7EAF = {
+			isa = PBXGroup;
+			children = (
+				31712B6B14CCC8F2005F7EAF /* FontSets */,
+				31712B6414CCC8F2005F7EAF /* Frameworks */,
+				31712B6214CCC8F2005F7EAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31712B6214CCC8F2005F7EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31712B6114CCC8F2005F7EAF /* TSStyleManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31712B6414CCC8F2005F7EAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31712B6514CCC8F2005F7EAF /* Cocoa.framework */,
+				31712B6714CCC8F2005F7EAF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31712B6714CCC8F2005F7EAF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31712B6814CCC8F2005F7EAF /* AppKit.framework */,
+				31712B6914CCC8F2005F7EAF /* CoreData.framework */,
+				31712B6A14CCC8F2005F7EAF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		31712B6B14CCC8F2005F7EAF /* FontSets */ = {
+			isa = PBXGroup;
+			children = (
+				31A581C314E43142009F2FB3 /* Resources */,
+				31A5816914E409C6009F2FB3 /* Datamodel */,
+				31A581B214E43118009F2FB3 /* Document */,
+				310F4D8814E6B30C008E24C7 /* Helpers */,
+				31712B7A14CCC8F2005F7EAF /* FSDocument.xib */,
+				31712B7D14CCC8F2005F7EAF /* MainMenu.xib */,
+				31712B6C14CCC8F2005F7EAF /* Supporting Files */,
+			);
+			path = FontSets;
+			sourceTree = "<group>";
+		};
+		31712B6C14CCC8F2005F7EAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31712B6D14CCC8F2005F7EAF /* FontSets-Info.plist */,
+				31712B6E14CCC8F2005F7EAF /* InfoPlist.strings */,
+				31712B7114CCC8F2005F7EAF /* main.m */,
+				31712B7314CCC8F2005F7EAF /* FontSets-Prefix.pch */,
+				31712B7414CCC8F2005F7EAF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31A5816914E409C6009F2FB3 /* Datamodel */ = {
+			isa = PBXGroup;
+			children = (
+				31A581B414E43133009F2FB3 /* FSColor.h */,
+				31A581B514E43133009F2FB3 /* FSColor.m */,
+				31A581B614E43133009F2FB3 /* FSFont.h */,
+				31A581B714E43133009F2FB3 /* FSFont.m */,
+				31A581B814E43133009F2FB3 /* FSShadow.h */,
+				31A581B914E43133009F2FB3 /* FSShadow.m */,
+				31A8294514E52B9200C9EF8C /* FSStyle.h */,
+				31A8294614E52B9200C9EF8C /* FSStyle.m */,
+			);
+			name = Datamodel;
+			sourceTree = "<group>";
+		};
+		31A581B214E43118009F2FB3 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				31A581BD14E43139009F2FB3 /* FSDocument.h */,
+				31A581BE14E43139009F2FB3 /* FSDocument.m */,
+				31A581BF14E43139009F2FB3 /* FSDocumentController.h */,
+				31A581C014E43139009F2FB3 /* FSDocumentController.m */,
+			);
+			name = Document;
+			sourceTree = "<group>";
+		};
+		31A581C314E43142009F2FB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3171CEA314E7E5D2009CA037 /* Help */,
+				31A581C814E434AE009F2FB3 /* templateImplementation.txt */,
+				31A581C914E434AE009F2FB3 /* templateInterface.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31712B6014CCC8F2005F7EAF /* TSStyleManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31712B8214CCC8F2005F7EAF /* Build configuration list for PBXNativeTarget "TSStyleManager" */;
+			buildPhases = (
+				31712B5D14CCC8F2005F7EAF /* Sources */,
+				31712B5E14CCC8F2005F7EAF /* Frameworks */,
+				31712B5F14CCC8F2005F7EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSStyleManager;
+			productName = FontSets;
+			productReference = 31712B6114CCC8F2005F7EAF /* TSStyleManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31712B5814CCC8F2005F7EAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 31712B5B14CCC8F2005F7EAF /* Build configuration list for PBXProject "FontSets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31712B5614CCC8F2005F7EAF;
+			productRefGroup = 31712B6214CCC8F2005F7EAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31712B6014CCC8F2005F7EAF /* TSStyleManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31712B5F14CCC8F2005F7EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31712B7014CCC8F2005F7EAF /* InfoPlist.strings in Resources */,
+				31712B7614CCC8F2005F7EAF /* Credits.rtf in Resources */,
+				31712B7C14CCC8F2005F7EAF /* FSDocument.xib in Resources */,
+				31712B7F14CCC8F2005F7EAF /* MainMenu.xib in Resources */,
+				310F4D7314E5A484008E24C7 /* templateInterface.txt in Resources */,
+				310F4D7214E5A482008E24C7 /* templateImplementation.txt in Resources */,
+				3171CEA414E7E5D2009CA037 /* Help in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31712B5D14CCC8F2005F7EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31712B7214CCC8F2005F7EAF /* main.m in Sources */,
+				31A581BA14E43133009F2FB3 /* FSColor.m in Sources */,
+				31A581BB14E43133009F2FB3 /* FSFont.m in Sources */,
+				31A581BC14E43133009F2FB3 /* FSShadow.m in Sources */,
+				31A581C114E43139009F2FB3 /* FSDocument.m in Sources */,
+				31A581C214E43139009F2FB3 /* FSDocumentController.m in Sources */,
+				31A8294714E52B9200C9EF8C /* FSStyle.m in Sources */,
+				31A8294914E52CAA00C9EF8C /* templateImplementation.txt in Sources */,
+				310F4D8C14E6B328008E24C7 /* FSArrayController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31712B6E14CCC8F2005F7EAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31712B6F14CCC8F2005F7EAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31712B7414CCC8F2005F7EAF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31712B7514CCC8F2005F7EAF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		31712B7A14CCC8F2005F7EAF /* FSDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31712B7B14CCC8F2005F7EAF /* en */,
+			);
+			name = FSDocument.xib;
+			sourceTree = "<group>";
+		};
+		31712B7D14CCC8F2005F7EAF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31712B7E14CCC8F2005F7EAF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31712B8014CCC8F2005F7EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = TSStyleManager;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		31712B8114CCC8F2005F7EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = TSStyleManager;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		31712B8314CCC8F2005F7EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontSets/FontSets-Prefix.pch";
+				INFOPLIST_FILE = "FontSets/FontSets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31712B8414CCC8F2005F7EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontSets/FontSets-Prefix.pch";
+				INFOPLIST_FILE = "FontSets/FontSets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31712B5B14CCC8F2005F7EAF /* Build configuration list for PBXProject "FontSets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31712B8014CCC8F2005F7EAF /* Debug */,
+				31712B8114CCC8F2005F7EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31712B8214CCC8F2005F7EAF /* Build configuration list for PBXNativeTarget "TSStyleManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31712B8314CCC8F2005F7EAF /* Debug */,
+				31712B8414CCC8F2005F7EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31712B5814CCC8F2005F7EAF /* Project object */;
+}
